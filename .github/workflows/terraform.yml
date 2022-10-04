@@ -16,7 +16,7 @@ jobs:
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
       run:
-        working-directory: ${{ env.working_dir }}
+        working-directory: terraform
 
     steps:
     - uses: actions/checkout@v2
